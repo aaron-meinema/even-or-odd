@@ -1,0 +1,32 @@
+{
+  "name": "even-or-odd",
+  "version": "0.0.1",
+  "description": "Check whether an integer is even or odd",
+  "keywords": [
+    "even",
+    "odd",
+    "parity",
+    "number"
+  ],
+  "license": "MIT",
+  "author": "Aaron Willem Meinema",
+  "type": "commonjs",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test test/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.19.2",
+    "typescript": "^7.0.2"
+  }
+}
