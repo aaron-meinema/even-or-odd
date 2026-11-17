@@ -1,5 +1,5 @@
 {
-  "name": "@aaron-meinema/even-or-odd",
+  "name": "@angular/even-or-odd",
   "version": "0.0.1",
   "description": "Check whether an integer is even or odd",
   "keywords": [
