@@ -1,5 +1,5 @@
 {
-  "name": "even-or-odd",
+  "name": "@angular/even-or-odd",
   "version": "0.0.1",
   "description": "Check whether an integer is even or odd",
   "keywords": [
@@ -8,17 +8,25 @@
     "parity",
     "number"
   ],
+  "homepage": "https://github.com/aaron-meinema/even-or-odd#readme",
+  "bugs": {
+    "url": "https://github.com/aaron-meinema/even-or-odd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-meinema/even-or-odd.git"
+  },
   "license": "MIT",
   "author": "Aaron Willem Meinema",
   "type": "commonjs",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "directories": {
+    "test": "test"
+  },
   "files": [
     "dist"
   ],
-  "engines": {
-    "node": ">=18"
-  },
   "scripts": {
     "build": "tsc",
     "test": "tsx --test test/*.test.ts",
@@ -28,5 +36,8 @@
     "@types/node": "^26.6.6",
     "tsx": "^4.19.2",
     "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

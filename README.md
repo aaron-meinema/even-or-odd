@@ -5,13 +5,13 @@ Tiny, zero-dependency utility to check whether an integer is even or odd.
 ## Install
 
 ```sh
-npm install even-or-odd
+npm install @angular/even-or-odd
 ```
 
 ## Usage
 
 ```ts
-import { evenOrOdd, Is } from "even-or-odd";
+import { evenOrOdd, Is } from "@angular/even-or-odd";
 
 evenOrOdd(4) === Is.Even; // true
 evenOrOdd(3) === Is.Odd; // true
