@@ -5,7 +5,7 @@ Tiny, zero-dependency utility to check whether an integer is even or odd.
 ## Install
 
 ```sh
-npm install @angular/even-or-odd
+npm install @aaron-meinema/even-or-odd
 ```
 
 ## Usage
